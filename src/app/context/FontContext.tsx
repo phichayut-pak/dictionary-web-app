@@ -12,7 +12,7 @@ export const FontContext = createContext<FontContextProps>({
 })
 
 export const FontProvider = ({children} : {children: ReactNode}) => {
-    const [currentFont, setCurrentFont] = useState<string>('')
+    const [currentFont, setCurrentFont] = useState<string>('mono')
 
     useEffect(() => {
         const storedFont = localStorage.getItem('currentFont')

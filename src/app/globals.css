@@ -1,55 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-@font-face {
-    font-family: 'Inconsolata';
-    src: url('/assets/fonts/inconsolata/static/Inconsolata-Regular.ttf') format('truetype');
-    font-weight: 400;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Inconsolata';
-    src: url('/assets/fonts/inconsolata/static/Inconsolata-Bold.ttf') format('truetype');
-    font-weight: 700;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Inter';
-    src: url('/assets/fonts/inter/static/Inter-Regular.ttf') format('truetype');
-    font-weight: 400;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Inter';
-    src: url('/assets/fonts/inter/static/Inter-Bold.ttf') format('truetype');
-    font-weight: 700;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Lora';
-    src: url('/assets/fonts/lora/static/Lora-Regular.ttf') format('truetype');
-    font-weight: 400;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Lora';
-    src: url('/assets/fonts/lora/static/Lora-Bold.ttf') format('truetype');
-    font-weight: 700;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Lora';
-    src: url('/assets/fonts/lora/static/Lora-BoldItalic.ttf') format('truetype');
-    font-weight: 700;
-    font-style: italic;
-}
 
 .\[--tglbg\:theme\(colors\.gray\)\] {
     --tglbg: #757575;
@@ -59,3 +11,5 @@
 .\[--tglbg\:theme\(colors\.purple\)\] {
     --tglbg: #A445ED;
 }
+
+    
