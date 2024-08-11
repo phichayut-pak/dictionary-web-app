@@ -6,6 +6,10 @@ import Title from "./components/Title";
 import Source from "./components/Source";
 import { Suspense } from "react";
 import Meaning from "./components/Meaning";
+import Loading from "./components/Loading";
+import SearchError from "./components/SearchError";
+import { DiVim } from "react-icons/di";
+import NotSearched from "./components/NotSearched";
 
 interface wordDataMeanings {
   partOfSpeech: string;
@@ -22,10 +26,10 @@ export default function Home() {
   // evertime the user submits an input
   useEffect(() => {
     const fetchWord = async () => {
-
-
+      
       if(word !== '') {
         setLoading(true)
+        setError(null)
         
         try {
           const response = await axios.get(`https://api.dictionaryapi.dev/api/v2/entries/en/${word}`)
@@ -54,14 +58,16 @@ export default function Home() {
   }, [word])
     
   return (
-    <div className="flex-grow  w-full flex flex-col pb-16 ">
-      <div className="w-full h-full pb-12">
+    <div className="flex-grow min-h-full w-full flex flex-col pb-16 ">
+      <div className="w-full pb-12">
         <SearchBar setWord={setWord} />
       </div>
 
-      { loading && <p className="text-purple-500">Loading...</p> }
+      { !loading && !error && !wordData && word == '' && <NotSearched />}
 
-      { error && <p className="text-error">{error}</p>}
+      { loading && <Loading /> } 
+
+      { error && <SearchError />}
 
       { wordData && !loading && !error &&
         <div>

@@ -29,7 +29,7 @@ export default function RootLayout({
       <FontProvider>
         <Providers>
           <Navbar />
-          <main className="flex-grow bg-white dark:bg-dark">
+          <main className="flex flex-grow bg-white dark:bg-dark">
               {children}
           </main>
         </Providers>
