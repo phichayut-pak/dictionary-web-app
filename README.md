@@ -19,3 +19,6 @@ The only issue that I found was when I was doing the change in fonts on the navb
 ## What could be improved
 
 In overall, I think this already meets the expectations of the practice that I think it should be. I might add some animations or transitions for the page to be smoother. The site might also not be pixel perfect or not be exactly as same as the design yet, so this could be improved. I also took too much time in this project which I could have done it faster.
+
+## Link
+[Link](https://dictionary-web-app-two-theta.vercel.app/)
