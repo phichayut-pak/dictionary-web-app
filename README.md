@@ -1,37 +1,21 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+# Dictionary Web app
 
-First, run the development server:
+![dictionary-web-app](https://media.discordapp.net/attachments/488216247603953696/1274965930455339099/Screen_Shot_2567-08-19_at_12.39.16.png?ex=66c42c0d&is=66c2da8d&hm=87382cd529ba882a6dfeb44ab9da7b4eee2e0453f2991dcf0f07ed43de96f2fc&=&format=webp&quality=lossless&width=1100&height=602)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Overview
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+This is a solution to the [Dictionary Web App on Frontend Mentor](https://www.frontendmentor.io/challenges/dictionary-web-app-h5wwnyuKFL) 
 
-## Learn More
+This challenge is to build a fully responsive dictionary web app using an API for word definitions and other functionalities such as searching for words, viewing definitions, and toggling between light and dark themes. The project is an excellent practice for me to catch up after I haven't touched a code for a period.
+## Tech Stack
+- NextJS - to build a component-based website
+- TailwindCSS - to style up the page with an ease
+- DaisyUI - to use the styled components in order to lessen the time in styling
+## Challenge
+The only issue that I found was when I was doing the change in fonts on the navbar. At first, it did not change after I clicked to change the font. After I did searching and debugging, I suddenly found out that this can be fixed in tailwind config which is to load the fonts at the first place.
+## What could be improved
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
-"# dictionary-web-app" 
+In overall, I think this already meets the expectations of the practice that I think it should be. I might add some animations or transitions for the page to be smoother. The site might also not be pixel perfect or not be exactly as same as the design yet, so this could be improved. I also took too much time in this project which I could have done it faster.
