@@ -1,7 +1,7 @@
 
 # Dictionary Web app
 
-![dictionary-web-app](https://media.discordapp.net/attachments/488216247603953696/1274965930455339099/Screen_Shot_2567-08-19_at_12.39.16.png?ex=66c42c0d&is=66c2da8d&hm=87382cd529ba882a6dfeb44ab9da7b4eee2e0453f2991dcf0f07ed43de96f2fc&=&format=webp&quality=lossless&width=1100&height=602)
+![dictionary-web-app](https://i.ibb.co/GMXyLJv/Screen-Shot-2567-08-28-at-01-14-17.png)
 
 
 
